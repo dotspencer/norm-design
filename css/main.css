@@ -43,7 +43,7 @@ div.content {
   right: 0;
   bottom: 0;
   left: 260px;
-  padding: 0 20px;
+  padding: 0 15px;
   background-color: whitesmoke; }
   div.content .center {
     max-width: 900px;
@@ -53,7 +53,38 @@ div.content {
     padding: 20px;
     float: left;
     border: 1px solid lightgray;
-    border-radius: 3px; }
+    border-radius: 3px;
+    margin: 15px;
+    color: #333; }
+    div.content .part.skinny {
+      padding: 0; }
+    div.content .part.clear-left {
+      clear: left; }
+    div.content .part .top {
+      text-align: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid lightgray; }
+    div.content .part .bottom {
+      text-align: center;
+      padding: 10px 20px; }
+      div.content .part .bottom.num {
+        font-size: 5em;
+        font-weight: 400;
+        letter-spacing: -5px; }
+    div.content .part table {
+      border-collapse: collapse; }
+    div.content .part th {
+      padding: 15px;
+      font-weight: normal;
+      border-bottom: 1px solid lightgray; }
+    div.content .part td + td, div.content .part th + th {
+      border-left: 1px solid lightgray; }
+    div.content .part td.num {
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 5em;
+      font-weight: 400;
+      letter-spacing: -5px; }
   div.content input {
     font-family: inherit;
     font-weight: 300;
