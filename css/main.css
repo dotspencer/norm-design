@@ -15,9 +15,12 @@ div.side {
     font-size: 1.5em;
     padding: 20px;
     background-color: mediumseagreen;
+    background-color: indianred;
     color: white;
     font-weight: 200;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    cursor: default;
+    text-align: center; }
   div.side a {
     color: white;
     text-decoration: none;

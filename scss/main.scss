@@ -24,9 +24,13 @@ div.side {
     font-size: $large;
     padding: 20px;
     background-color: mediumseagreen;
+    background-color: indianred;
+    // background: linear-gradient(crimson, #ff6850);
     color: $font-color;
     font-weight: 200;
     letter-spacing: 2px;
+    cursor: default;
+    text-align: center;
   }
 
   a {
