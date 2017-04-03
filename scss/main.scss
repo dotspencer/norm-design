@@ -30,7 +30,6 @@ div.side {
     // text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     font-weight: 200;
     letter-spacing: 2px;
-    cursor: default;
     text-align: center;
   }
 
@@ -43,7 +42,13 @@ div.side {
     padding: 10px 20px;
     opacity: .5;
     transition: opacity .15s;
-
+    &.min{
+      opacity: initial;
+      padding: initial;
+      letter-spacing: initial;
+      color: initial;
+      font-size: initial;
+    }
     &:hover{
       opacity: 1;
     }
@@ -151,6 +156,12 @@ div.content{
     border-radius: 4px;
     cursor: pointer;
     transition: background .15s;
+
+    img {
+      vertical-align: middle;
+      width: 20px;
+      margin-right: 10px;
+    }
 
     &:hover {
       background-color: darken($color, 4);

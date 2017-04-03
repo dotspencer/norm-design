@@ -19,7 +19,6 @@ div.side {
     color: white;
     font-weight: 200;
     letter-spacing: 2px;
-    cursor: default;
     text-align: center; }
   div.side a {
     color: white;
@@ -30,6 +29,12 @@ div.side {
     padding: 10px 20px;
     opacity: .5;
     transition: opacity .15s; }
+    div.side a.min {
+      opacity: initial;
+      padding: initial;
+      letter-spacing: initial;
+      color: initial;
+      font-size: initial; }
     div.side a:hover {
       opacity: 1; }
     div.side a.current {
@@ -108,6 +113,10 @@ div.content {
     border-radius: 4px;
     cursor: pointer;
     transition: background .15s; }
+    div.content button img {
+      vertical-align: middle;
+      width: 20px;
+      margin-right: 10px; }
     div.content button:hover {
       background-color: #37a467; }
   div.content button#send {
